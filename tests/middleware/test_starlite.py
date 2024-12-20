@@ -60,6 +60,7 @@ def test_event_handling(
         exception_handlers[ValueError] = global_exception_handler
 
     client = create_test_client(
+        [root],
         exception_handlers=exception_handlers,
         middleware=[
             DefineMiddleware(
@@ -67,7 +68,6 @@ def test_event_handling(
                 handlers=[dummy_handler_1, dummy_handler_2],
             ),
         ],
-        route_handlers=[root],
     )
 
     with suppress(ValueError):
