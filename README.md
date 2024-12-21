@@ -4,6 +4,8 @@ An event dispatching/handling library for FastAPI, and Starlette.
 
 [![](https://github.com/melvinkcx/fastapi-events/actions/workflows/tests.yml/badge.svg?branch=dev&event=push)](https://github.com/melvinkcx/fastapi-events/actions/workflows/tests.yml)
 ![PyPI - Downloads](https://img.shields.io/pypi/dw/fastapi-events)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fastapi-events)
+
 
 Features:
 
